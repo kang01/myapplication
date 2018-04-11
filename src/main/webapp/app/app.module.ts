@@ -18,6 +18,7 @@ import { MyapplicationAccountModule } from './account/account.module';
 import { MyapplicationEntityModule } from './entities/entity.module';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
+import { MyapplicationBizsModule } from './bizs/bizs.module';
 import {
     JhiMainComponent,
     NavbarComponent,
@@ -39,6 +40,7 @@ import {
         MyapplicationAccountModule,
         MyapplicationEntityModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
+        MyapplicationBizsModule
     ],
     declarations: [
         JhiMainComponent,
